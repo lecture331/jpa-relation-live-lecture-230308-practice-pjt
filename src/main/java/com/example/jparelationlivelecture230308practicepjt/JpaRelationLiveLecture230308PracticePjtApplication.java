@@ -48,17 +48,17 @@ public class JpaRelationLiveLecture230308PracticePjtApplication {
             // 테스트 코드 실행 시키기 전에 요기 부분은 전부 주석 처리 하시는게 좋습니다!
 
             //"다대일 양방향으로 변경해서 update 확인하기"
-            Team team = new Team("team1");
-            teamRepository.save(team);
-
-            Member member1 = new Member("member1", 100);
-            Member member2 = new Member("member2", 11);
-
-            team.addMember(member1);
-            team.addMember(member2);
-
-            memberRepository.save(member1);
-            memberRepository.save(member2);
+//            Team team = new Team("team1");
+//            teamRepository.save(team);
+//
+//            Member member1 = new Member("member1", 100);
+//            Member member2 = new Member("member2", 11);
+//
+//            team.addMember(member1);
+//            team.addMember(member2);
+//
+//            memberRepository.save(member1);
+//            memberRepository.save(member2);
 
 
         };
